@@ -1,5 +1,6 @@
 {
-    "name": "geerlingguy/drupal-vm",
+    "name": "iainhouston/drupal-vm",
+    "replace": { "geerlingguy/drupal-vm":"5.0.2" },
     "type": "vm",
     "description": "A VM for local Drupal development, built with Vagrant + Ansible",
     "keywords": ["vagrant", "vm", "virtual machine", "drupal"],
