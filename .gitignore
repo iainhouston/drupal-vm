@@ -22,3 +22,6 @@ Vagrantfile.local
 /drupal.make.yml
 /scripts/
 /drupal/
+
+/prod/*
+!/prod/README.txt

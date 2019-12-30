@@ -1,6 +1,7 @@
 ---
 - name: Run database updates.
   command: "{{ drush_path }} updatedb -y"
+  ignore_errors: yes
   args:
     chdir: "{{ drupal_core_path }}"
   register: drush_database_updates
